@@ -1,0 +1,142 @@
+@font-face {
+    font-family: "OpenSansRegular";
+    src: url("../fonts/OpenSansRegular/OpenSansRegular.eot");
+    src: url("../fonts/OpenSansRegular/OpenSansRegular.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/OpenSansRegular/OpenSansRegular.woff") format("woff"),
+    url("../fonts/OpenSansRegular/OpenSansRegular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	font-family: "OpenSansRegular", Arial, sans-serif;
+	background-color: #f9f9f9;
+	background-color: #fff;
+	margin: 0 auto;
+	width: 1060px;
+	box-shadow: 0 0 5px gray;
+	border-left: 1px solid #dbdbdb;
+	border-right: 1px solid #dbdbdb;
+	box-shadow: -1px 0 10px 4px #dbdbdb;
+}
+
+li {
+	list-style-type: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+.logo {
+	padding: 50px 0 40px 45px;
+}
+
+.navigation {
+	margin-left: 45px;
+	width: 965px;
+	line-height: 38px;
+	background-color: #4f4e4e;
+	border: 1px solid #808080;
+}
+
+.navigation li {
+	font-size: 0;
+
+}
+
+.navigation ul li {
+	display: inline-block;
+	font-size: 16px;
+}
+
+
+
+.navigation a{
+	display: block;
+	color: #fff;
+	padding: 0 25px 0 25px;
+}
+
+.navigation a:hover {
+	background: #444444;
+	border-left: 1px inset #fff;
+	border-right: 1px inset #fff;
+	padding: 0 24px;
+}
+
+.article {
+	margin: 38px 48px 29px 46px;
+	float: right;
+	width: 676px;
+	border: 1px solid #c3c1c1;
+	text-align: center;
+}
+
+p {
+	float: right;
+	width: 676px;
+	margin: 35px 50px 80px 40px;
+}
+
+.aside{
+	float: left;
+	margin-top: 39px;
+	margin-left: 45px;
+	width: 238px;
+	line-height: 38px;
+	background-color: #fff;
+	border: 1px solid #c3c1c1;
+	border-bottom: 0;
+}
+
+.aside a {
+	display: block;
+	color: #c3c1c1;
+	padding-left: 25px;
+}
+
+.bookmark {
+	border-bottom: 1px solid #c3c1c1;
+}
+
+.aside a:hover {
+	padding-left: 35px;
+	background-color: #f9f9f9;
+	color: #000;
+}
+
+.footer {
+	clear: both;
+}
+.menu_footer {
+	margin-top: 80px;
+	margin-left: 45px;
+	width: 965px;
+	line-height: 38px;
+	background-color: #e1e1e1;
+	position: relative;
+}
+.menu_footer li {
+	display: inline-block;
+}
+.menu_footer a {
+	display: block;
+	color: #fff;
+	padding-left: 25px;
+	color: black;
+}
+
+.menu_footer a:hover {
+	text-decoration: underline;
+}
+.copyright {
+	position: absolute;
+	right: 25px;
+	top: 2px;
+}

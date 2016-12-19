@@ -55,6 +55,7 @@ a {
 	display: block;
 	color: #fff;
 	padding: 0 25px 0 25px;
+	font-size: 15px;
 }
 
 .navigation a:hover {
@@ -91,14 +92,14 @@ a {
 	margin-left: 45px;
 	width: 238px;
 	line-height: 38px;
-	background-color: #fff;
 	border: 1px solid #c3c1c1;
 	border-bottom: 0;
 }
 
 .aside a {
 	display: block;
-	color: #c3c1c1;
+	color: #656363;
+	font-size: 13px;
 	padding-left: 25px;
 }
 
@@ -109,7 +110,7 @@ a {
 .aside a:hover {
 	padding-left: 35px;
 	background-color: #f9f9f9;
-	color: #000;
+	color: #2c2c2c;
 }
 
 .article {
@@ -120,8 +121,10 @@ a {
 .footer {
 	clear: both;
 	margin-bottom: 60px;
+	font-size: 13px;
 	
 }
+
 .menu_footer {
 	margin-top: -25px;
 	margin-left: 45px;
@@ -130,19 +133,23 @@ a {
 	background-color: #e1e1e1;
 	position: absolute;
 }
+
 .menu_footer li {
 	display: inline-block;
 }
+
 .menu_footer a {
 	display: block;
 	color: #fff;
 	padding-left: 25px;
-	color: black;
+	color: #2c2c2c;
+	
 }
 
 .menu_footer a:hover {
 	text-decoration: underline;
 }
+
 .copyright {
 	position: absolute;
 	right: 25px;
